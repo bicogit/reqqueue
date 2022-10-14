@@ -68,5 +68,8 @@ public class ReqQueueConfig {
 }
 ```
 
+##将Jar部署至本地Maven仓库
+mvn clean install -Dmaven.test.skip=true
+
 ## 感谢
 部分代码来自于Sentinel项目，谢谢
